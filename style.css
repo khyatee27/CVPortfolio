@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+background-image: url('images/background.jpg'); /* your image path */
+    background-size: cover;        /* makes image cover entire section */
+    background-position: center;   /* centers the image */
+    background-repeat: no-repeat;  /* no tiling */ 
+}
+
+/* HERO */
+.hero {
+ background: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.btn {
+    background: #2563eb;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* CARDS */
+.card {
+     background: rgba(31, 41, 55, 0.2); /* light grey with 50% transparency */
+    border-radius: 12px;                  /* optional, makes it look modern */
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    color: white;
+    border: 1px solid #bae6fd;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 850px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* NORMAL IMAGES */
+.card img {
+    width: 300%;
+height:300%;
+    margin-top: 10px;s
+    border-radius: 8px;
+}
+
+/* SLIDESHOW */
+.slideshow-container {
+    position: relative;
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+/* SLIDES */
+.slide {
+    display: none;
+    width: 100%;
+max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* BUTTONS */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3px;
+    transform: translateY(-50%);
+}
+
+.prev { left: 0; }
+.next { right: 0; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+
+/* hover effect for sills */
+.skills div {
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+ background: rgba(31, 41, 55, 0.2);
+}
+
+.skills div:hover {
+    border-color: #00bcd4;
+    box-shadow: 0 0 15px #00bcd4;
+}
